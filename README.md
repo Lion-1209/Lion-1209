@@ -3,7 +3,7 @@
 </div>
 
 <div align="center">
-  <img src="assets/avatar.svg" width="180" alt="Lion animated avatar"/>
+  <img src="assets/avatar.svg" width="240" alt="Lion animated avatar"/>
 </div>
 
 <div align="center">
