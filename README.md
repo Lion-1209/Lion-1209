@@ -6,7 +6,9 @@
   <img src="assets/avatar.svg" width="180" alt="Lion animated avatar"/>
 </div>
 
-<h1 align="center">Hi, I'm Lion 👋</h1>
+<div align="center">
+  <img src="assets/title.svg" width="460" alt="Hi, I'm Lion"/>
+</div>
 
 <div align="center">
   <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?lines=%E5%B5%8C%E5%85%A5%E5%BC%8F%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%B8%88%3BAgent+%E6%A1%86%E6%9E%B6%E6%8E%A2%E7%B4%A2%E8%80%85%3BClaude+Code+%E9%AB%98%E5%BC%BA%E5%BA%A6%E4%BD%BF%E7%94%A8%E8%80%85%3B%E8%AE%A9%E6%8A%80%E6%9C%AF%E6%83%A0%E5%8F%8A%E6%9B%B4%E5%A4%9A%E4%BA%BA&center=true&width=600&height=56&color=00D9FF&font=Fira+Code&size=22&duration=3500&pause=700" alt="Typing SVG" /></a>
