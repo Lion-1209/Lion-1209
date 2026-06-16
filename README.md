@@ -7,7 +7,7 @@
 </div>
 
 <div align="center">
-  <img src="assets/title.svg" width="460" alt="Hi, I'm Lion"/>
+  <img src="assets/title.png" width="440" alt="Hi, I'm Lion"/>
 </div>
 
 <div align="center">
