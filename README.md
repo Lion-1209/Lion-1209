@@ -116,7 +116,10 @@ class Lion:
 
 <div align="center">
   <a href="mailto:702857208@qq.com">
-    <img src="https://img.shields.io/badge/Email-702857208@qq.com-red?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+    <img src="https://img.shields.io/badge/Email-702857208@qq.com-red?style=for-the-badge&logo=gmail&logoColor=white" alt="Email QQ"/>
+  </a>
+  <a href="mailto:caohuoliang1209@163.com">
+    <img src="https://img.shields.io/badge/Email-caohuoliang1209@163.com-00A1D6?style=for-the-badge&logo=mailbox&logoColor=white" alt="Email 163"/>
   </a>
   <a href="https://github.com/Lion-1209">
     <img src="https://img.shields.io/badge/GitHub-Lion--1209-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
