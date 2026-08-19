@@ -63,20 +63,23 @@ class Lion:
 
 ### AI 工具 / AI Tools
 ![Claude](https://img.shields.io/badge/Claude-D97757?style=for-the-badge&logo=anthropic&logoColor=white)
+![GitHub Copilot](https://img.shields.io/badge/GitHub_Copilot-24292F?style=for-the-badge&logo=githubcopilot&logoColor=white)
+![Gemini](https://img.shields.io/badge/Gemini-4285F4?style=for-the-badge&logo=googlegemini&logoColor=white)
+![Hugging Face](https://img.shields.io/badge/Hugging_Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
 
 </div>
 
 ## 📊 GitHub 统计 / GitHub Stats
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Lion-1209&show_icons=true&theme=radical&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Lion-1209&layout=compact&langs_count=8&theme=radical"/>
+  <img src="profile-summary-card-output/radical/3-stats.svg" alt="GitHub Stats"/>
+  <img src="profile-summary-card-output/radical/2-most-commit-language.svg" alt="Most Commit Language"/>
 </div>
 
-## 📈 活跃度动图 / Activity Graph
+## 📈 活跃时段 / Productive Time
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Lion-1209&theme=dracula&hide_border=true&area=true" alt="GitHub Activity Graph"/>
+  <img src="profile-summary-card-output/radical/4-productive-time.svg" alt="Productive Time"/>
 </div>
 
 ## 🔥 连续贡献 / Contribution Streak
@@ -88,7 +91,7 @@ class Lion:
 ## 🏆 成就 / Achievements
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Lion-1209&theme=radical&no-bg=true&no-border=true&row=1&column=6" alt="GitHub Trophies"/>
+  <img src="assets/trophy.svg" alt="GitHub Trophies"/>
 </div>
 
 ## 💡 当前探索方向 / Current Focus

@@ -14,24 +14,21 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: denoland/setup-deno@v2
-        with:
-          deno-version: v2.x
-
-      - name: Generate trophy
-        env:
-          GITHUB_TOKEN1: ${{ secrets.GITHUB_TOKEN }}
+      - name: Fetch trophy from mirror
         run: |
-          git clone --depth 1 -b feature/generate-svg \
-            https://github.com/Erik-Donath/github-profile-trophy.git /tmp/trophy
-          cd /tmp/trophy
-          deno run --allow-net --allow-env --allow-read --allow-write \
-            render_svg.ts Lion-1209 \
-            --file "$GITHUB_WORKSPACE/assets/trophy.svg" \
-            --theme radical \
-            --rows 1 \
-            --no-background \
-            --no-frame
+          mkdir -p assets
+          for ep in \
+            "https://trophygithubreadmelang.cybee.dpdns.org" \
+            "https://trophy.benkou.dev" \
+            "https://github-trophies.devomb.com"; do
+            echo "Trying $ep ..."
+            curl -sf --max-time 60 \
+              "$ep/?username=Lion-1209&theme=radical&no-bg=true&no-border=true&row=1&column=6" \
+              -o assets/trophy.svg && grep -q "<svg" assets/trophy.svg \
+              && echo "OK from $ep" && break
+            echo "Failed: $ep"
+          done
+          grep -q "<svg" assets/trophy.svg
 
       - name: Commit and push
         run: |
