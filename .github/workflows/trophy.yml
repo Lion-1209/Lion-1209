@@ -14,16 +14,24 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Generate trophy
-        uses: Erik-Donath/github-profile-trophy@feature/generate-svg
+      - uses: denoland/setup-deno@v2
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          username: Lion-1209
-          file: assets/trophy.svg
-          theme: radical
-          max-rows: "1"
-          no-background: "true"
-          no-frame: "true"
+          deno-version: v2.x
+
+      - name: Generate trophy
+        env:
+          GITHUB_TOKEN1: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git clone --depth 1 -b feature/generate-svg \
+            https://github.com/Erik-Donath/github-profile-trophy.git /tmp/trophy
+          cd /tmp/trophy
+          deno run --allow-net --allow-env --allow-read --allow-write \
+            render_svg.ts Lion-1209 \
+            --file "$GITHUB_WORKSPACE/assets/trophy.svg" \
+            --theme radical \
+            --rows 1 \
+            --no-background \
+            --no-frame
 
       - name: Commit and push
         run: |
