@@ -11,7 +11,7 @@
 </div>
 
 <div align="center">
-  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?lines=%E5%B5%8C%E5%85%A5%E5%BC%8F%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%B8%88+%2F+Embedded+Software+Engineer%3BAgent+%E6%A1%86%E6%9E%B6%E6%8E%A2%E7%B4%A2%E8%80%85+%2F+Agent+Framework+Explorer%3BClaude+Code+%E9%AB%98%E5%BC%BA%E5%BA%A6%E4%BD%BF%E7%94%A8%E8%80%85+%2F+Claude+Code+Power+User%3B%E8%AE%A9%E6%8A%80%E6%9C%AF%E6%83%A0%E5%8F%8A%E6%9B%B4%E5%A4%9A%E4%BA%BA+%2F+Make+Tech+Benefit+More+People&center=true&width=720&height=56&color=00D9FF&font=Fira+Code&size=20&duration=3500&pause=700" alt="Typing SVG" /></a>
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?lines=%E5%B5%8C%E5%85%A5%E5%BC%8F%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%B8%88+%2F+Embedded+Software+Engineer%3BAgent+%E6%A1%86%E6%9E%B6%E6%8E%A2%E7%B4%A2%E8%80%85+%2F+Agent+Framework+Explorer%3BAI+%E5%B7%A5%E5%85%B7%E9%AB%98%E5%BC%BA%E5%BA%A6%E4%BD%BF%E7%94%A8%E8%80%85+%2F+AI+Tools+Power+User%3B%E8%AE%A9%E6%8A%80%E6%9C%AF%E6%83%A0%E5%8F%8A%E6%9B%B4%E5%A4%9A%E4%BA%BA+%2F+Make+Tech+Benefit+More+People&center=true&width=720&height=56&color=00D9FF&font=Fira+Code&size=20&duration=3500&pause=700" alt="Typing SVG" /></a>
 </div>
 
 <br/>
@@ -31,8 +31,8 @@
 > 技术的最大意义就是普及社会
 > The greatest meaning of technology is to benefit society
 
-嵌入式软件工程师，从事过工控、机器人、医疗等行业。Claude Code 高强度使用者，Agent 框架探索者。
-Embedded software engineer with experience in industrial control, robotics, and medical devices. A power user of Claude Code and an explorer of Agent frameworks.
+嵌入式软件工程师，从事过工控、机器人、医疗等行业。AI 工具高强度使用者，Agent 框架探索者。
+Embedded software engineer with experience in industrial control, robotics, and medical devices. A power user of AI tools and an explorer of Agent frameworks.
 
 ```python
 class Lion:
